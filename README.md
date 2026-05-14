@@ -1,5 +1,5 @@
 # Udemig-Education-Pro
-## 🚀 Features
+##  Features
 
 - Fixed navigation header with mobile menu toggle
 - Hero section with background image and call-to-action
