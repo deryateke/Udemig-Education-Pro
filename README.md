@@ -9,7 +9,7 @@
 - Contact form
 - Fully responsive footer with social media links
 - 
-## 🛠️ Built With
+##  Built With
 
 - **HTML5** — Semantic markup
 - **SCSS/Sass** — Modular styling with variables, mixins, and partials
