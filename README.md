@@ -17,3 +17,5 @@
 - **Google Fonts** — Open Sans typography
 - **JavaScript** — Mobile menu interaction
 - **Live Server** — Local development
+
+<img src="Udemig Education Pro.gif" />
