@@ -1,0 +1,54 @@
+#about-us {
+  @include container;
+  @extend .flexBox;
+  justify-content: center;
+  gap: 9rem;
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  // * image
+  .about-us-image {
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  // * text
+  .about-us-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    h5 {
+      color: $main-color;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 6px;
+    }
+
+    h2 {
+      font-size: $h2-font;
+      font-weight: 800;
+      line-height: 1.1;
+    }
+
+    p {
+      color: $gray;
+      font-size: $p-font;
+      line-height: 25px;
+      font-weight: 500;
+    }
+
+    button {
+      @include button;
+      width: fit-content;
+    }
+  }
+}
